@@ -69,12 +69,12 @@ h1{
     color: var(--color-text);
     font-size: 1.8rem;
 }
-.card-body-title span{
+h1 span{
     color: var(--alternative-color-text);
     font-weight: 400;
 }
 .card-body-subtitle{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--alternative-color-text);
     margin-top: 1.5rem;
     margin-bottom: 2.8rem;

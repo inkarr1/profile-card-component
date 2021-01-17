@@ -120,7 +120,7 @@ h1 span{
         margin-bottom: 2rem;
     }
     .card{
-        grid-template-rows: 110px 115px 75px;
+        grid-template-rows: 110px 130px 60px;
     }
     .card-footer-social-title{
         font-size: 1.3rem;

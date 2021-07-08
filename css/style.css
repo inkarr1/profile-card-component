@@ -56,6 +56,10 @@ img {
     justify-content: center;
 }
 
+.gap {
+    padding: var(--margin-4) 0;
+}
+
 .card {
     display         : grid;
 
@@ -63,7 +67,7 @@ img {
     background-color: var(--bg-white);
     box-shadow      : 0px 1px 7px rgba(0, 0, 0, 0.315);
 
-    margin          : var(--margin-4);
+    margin          : 0 var(--margin-4);
 }
 
 .card-header {
@@ -111,10 +115,12 @@ img {
 }
 
 .card-footer {
+    margin-bottom  : var(--margin-3);
+}
+
+.card-stats-list {
     display        : flex;
     justify-content: space-evenly;
-
-    margin-bottom  : var(--margin-3);
 }
 
 .card-stats {

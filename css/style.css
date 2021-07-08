@@ -80,14 +80,15 @@ img {
 }
 
 .card-profile {
-    --size       : 10rem;
-    width        : var(--size);
+    --size          : 10rem;
+    width           : var(--size);
 
-    border       : 5px solid var(--bg-white);
-    border-radius: 50%;
+    background-color: var(--bg-white);
+    border          : 5px solid var(--bg-white);
+    border-radius   : 50%;
 
-    margin-top   : calc((var(--size) / 2) - var(--size));
-    margin-bottom: var(--margin-3);
+    margin-top      : calc((var(--size) / 2) - var(--size));
+    margin-bottom   : var(--margin-3);
 }
 
 .card-name {

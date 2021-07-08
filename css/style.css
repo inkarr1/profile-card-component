@@ -35,7 +35,7 @@ body {
     color              : var(--text-color);
 
     background-color   : var(--bg-color);
-    background-image   : url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-image   : url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-repeat  : no-repeat, no-repeat;
     background-position: right 52.6vw bottom 32vh, left 50vw top 50vh;
 
